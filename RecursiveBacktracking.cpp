@@ -92,7 +92,7 @@ vector<Edge> RecursiveBacktracking::generate() {
                 edges.push_back(edge);
                 visitedCells[carvingCell.getX()][carvingCell.getY()] = true;
                 visitedCoordinators.push(carvingCell);
-            } else {
+            } else { // Backtracking visited cell
                 visitedCoordinators.pop();
                 if (!visitedCoordinators.empty()) {
                     carvingCell = visitedCoordinators.top();
