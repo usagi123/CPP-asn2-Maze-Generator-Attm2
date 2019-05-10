@@ -6,17 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/imhikarucat/Desktop/CPP/asn2-att2/Coordinator.cpp
-Coordinator.h
-/Users/imhikarucat/Desktop/CPP/asn2-att2/Coordinator.h
-
 /Users/imhikarucat/Desktop/CPP/asn2-att2/Coordinator.h
 stdio.h
 -
-
-/Users/imhikarucat/Desktop/CPP/asn2-att2/Edge.cpp
-Edge.h
-/Users/imhikarucat/Desktop/CPP/asn2-att2/Edge.h
 
 /Users/imhikarucat/Desktop/CPP/asn2-att2/Edge.h
 stdio.h
@@ -24,27 +16,9 @@ stdio.h
 Coordinator.h
 /Users/imhikarucat/Desktop/CPP/asn2-att2/Coordinator.h
 
-/Users/imhikarucat/Desktop/CPP/asn2-att2/GrowingTree.cpp
-GrowingTree.h
-/Users/imhikarucat/Desktop/CPP/asn2-att2/GrowingTree.h
-
 /Users/imhikarucat/Desktop/CPP/asn2-att2/GrowingTree.h
 stdlib.h
 -
-Maze.h
-/Users/imhikarucat/Desktop/CPP/asn2-att2/Maze.h
-
-/Users/imhikarucat/Desktop/CPP/asn2-att2/HuntAndKill.cpp
-HuntAndKill.h
-/Users/imhikarucat/Desktop/CPP/asn2-att2/HuntAndKill.h
-
-/Users/imhikarucat/Desktop/CPP/asn2-att2/HuntAndKill.h
-stdlib.h
--
-Maze.h
-/Users/imhikarucat/Desktop/CPP/asn2-att2/Maze.h
-
-/Users/imhikarucat/Desktop/CPP/asn2-att2/Maze.cpp
 Maze.h
 /Users/imhikarucat/Desktop/CPP/asn2-att2/Maze.h
 
@@ -56,19 +30,9 @@ vector
 Edge.h
 /Users/imhikarucat/Desktop/CPP/asn2-att2/Edge.h
 
-/Users/imhikarucat/Desktop/CPP/asn2-att2/Prim.cpp
-Prim.h
-/Users/imhikarucat/Desktop/CPP/asn2-att2/Prim.h
-
 /Users/imhikarucat/Desktop/CPP/asn2-att2/Prim.h
 Maze.h
 /Users/imhikarucat/Desktop/CPP/asn2-att2/Maze.h
-
-/Users/imhikarucat/Desktop/CPP/asn2-att2/RecursiveBacktracking.cpp
-RecursiveBacktracking.h
-/Users/imhikarucat/Desktop/CPP/asn2-att2/RecursiveBacktracking.h
-stack
--
 
 /Users/imhikarucat/Desktop/CPP/asn2-att2/RecursiveBacktracking.h
 Maze.h

@@ -34,7 +34,7 @@ vector<Edge> GrowingTree::generate() {
     movingCell.setX(rand() % height);
     movingCell.setY(rand() % width);
     // Add it to visitedCells list
-    visitedCells[movingCell.getX()][movingCell.getY()].first = true;
+    visitedCells[movingCell.getX()][movingCell.getY()] = true;
     visitedCoordinators.push_back(movingCell);
 
     while (!visitedCoordinators.empty()) {
@@ -43,7 +43,7 @@ vector<Edge> GrowingTree::generate() {
         // Finding 4 directions of cell which direction is available to move
         // North
         if (movingCell.getX() - 1 > -1) {
-            if (!visitedCells[movingCell.getX() - 1][movingCell.getY()].first) {
+            if (!visitedCells[movingCell.getX() - 1][movingCell.getY()]) {
                 Coordinator northCell;
                 northCell.setX(movingCell.getX() - 1);
                 northCell.setY(movingCell.getY());
@@ -53,7 +53,7 @@ vector<Edge> GrowingTree::generate() {
 
         // East
         if (movingCell.getY() + 1 < width) {
-            if (!visitedCells[movingCell.getX()][movingCell.getY() + 1].first) {
+            if (!visitedCells[movingCell.getX()][movingCell.getY() + 1]) {
                 Coordinator eastCell;
                 eastCell.setX(movingCell.getX());
                 eastCell.setY(movingCell.getY() + 1);
@@ -63,7 +63,7 @@ vector<Edge> GrowingTree::generate() {
 
         // West
         if (movingCell.getY() - 1 > -1) {
-            if (!visitedCells[movingCell.getX()][movingCell.getY() - 1].first) {
+            if (!visitedCells[movingCell.getX()][movingCell.getY() - 1]) {
                 Coordinator westCell;
                 westCell.setX(movingCell.getX());
                 westCell.setY(movingCell.getY() - 1);
@@ -73,7 +73,7 @@ vector<Edge> GrowingTree::generate() {
 
         // South
         if (movingCell.getX() + 1 < height) {
-            if (!visitedCells[movingCell.getX() + 1][movingCell.getY()].first) {
+            if (!visitedCells[movingCell.getX() + 1][movingCell.getY()]) {
                 Coordinator southCell;
                 southCell.setX(movingCell.getX() + 1);
                 southCell.setY(movingCell.getY());
