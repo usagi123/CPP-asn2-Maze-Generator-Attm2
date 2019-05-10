@@ -67,15 +67,23 @@ int main(int argc, char* argv[]) {
                 auto begin = high_resolution_clock::now();
                 edgesVector = growingTree.generate();
                 auto end = high_resolution_clock::now();
-                auto duration = duration_cast<milliseconds>(begin - end);
+                auto duration = duration_cast<milliseconds>(end - begin);
                 cout << "Total time to generate " << to_string(duration.count()) << " milliseconds" << endl;
 
                 if (checkFileSavingFlag(argv[i]) == SAVE_SVG) {
                     cout << EXPORT_SVG << endl;
+                    auto begin = high_resolution_clock::now();
                     saveSvg(fileName, edgesVector, width, height);
+                    auto end = high_resolution_clock::now();
+                    auto duration = duration_cast<milliseconds>(end - begin);
+                    cout << "Total time to export " << to_string(duration.count()) << " milliseconds" << endl;
                 } else {
                     cout << EXPORT_BINARY << endl;
+                    auto begin = high_resolution_clock::now();
                     saveBinary(fileName, edgesVector, width, height);
+                    auto end = high_resolution_clock::now();
+                    auto duration = duration_cast<milliseconds>(end - begin);
+                    cout << "Total time to export " << to_string(duration.count()) << " milliseconds" << endl;
                 }
             } else if (algorithm == RECURSIVE) {
                 vector<Edge> edgesVector;
@@ -89,15 +97,23 @@ int main(int argc, char* argv[]) {
                 auto begin = high_resolution_clock::now();
                 edgesVector = recursiveBacktracking.generate();
                 auto end = high_resolution_clock::now();
-                auto duration = duration_cast<milliseconds>(begin - end);
+                auto duration = duration_cast<milliseconds>(end - begin);
                 cout << "Total time to generate " << to_string(duration.count()) << " milliseconds" << endl;
 
                 if (checkFileSavingFlag(argv[i]) == SAVE_SVG) {
                     cout << EXPORT_SVG << endl;
+                    auto begin = high_resolution_clock::now();
                     saveSvg(fileName, edgesVector, width, height);
+                    auto end = high_resolution_clock::now();
+                    auto duration = duration_cast<milliseconds>(end - begin);
+                    cout << "Total time to export " << to_string(duration.count()) << " milliseconds" << endl;
                 } else {
                     cout << EXPORT_BINARY << endl;
+                    auto begin = high_resolution_clock::now();
                     saveBinary(fileName, edgesVector, width, height);
+                    auto end = high_resolution_clock::now();
+                    auto duration = duration_cast<milliseconds>(end - begin);
+                    cout << "Total time to export " << to_string(duration.count()) << " milliseconds" << endl;
                 }
             } else if (algorithm == PRIM){
                 vector<Edge> edgesVector;
@@ -111,15 +127,23 @@ int main(int argc, char* argv[]) {
                 auto begin = high_resolution_clock::now();
                 edgesVector = prim.generate();
                 auto end = high_resolution_clock::now();
-                auto duration = duration_cast<milliseconds>(begin - end);
+                auto duration = duration_cast<milliseconds>(end - begin);
                 cout << "Total time to generate " << to_string(duration.count()) << " milliseconds" << endl;
 
                 if (checkFileSavingFlag(argv[i]) == SAVE_SVG) {
                     cout << EXPORT_SVG << endl;
+                    auto begin = high_resolution_clock::now();
                     saveSvg(fileName, edgesVector, width, height);
+                    auto end = high_resolution_clock::now();
+                    auto duration = duration_cast<milliseconds>(end - begin);
+                    cout << "Total time to export " << to_string(duration.count()) << " milliseconds" << endl;
                 } else {
                     cout << EXPORT_BINARY << endl;
+                    auto begin = high_resolution_clock::now();
                     saveBinary(fileName, edgesVector, width, height);
+                    auto end = high_resolution_clock::now();
+                    auto duration = duration_cast<milliseconds>(end - begin);
+                    cout << "Total time to export " << to_string(duration.count()) << " milliseconds" << endl;
                 }
             }
         } else if(argc == 6) {
@@ -145,15 +169,23 @@ int main(int argc, char* argv[]) {
                 auto begin = high_resolution_clock::now();
                 edgesVector = growingTree.generate();
                 auto end = high_resolution_clock::now();
-                auto duration = duration_cast<milliseconds>(begin - end);
+                auto duration = duration_cast<milliseconds>(end - begin);
                 cout << "Total time to generate " << to_string(duration.count()) << " milliseconds" << endl;
 
                 if (checkFileSavingFlag(argv[i]) == SAVE_SVG) {
                     cout << EXPORT_SVG << endl;
+                    auto begin = high_resolution_clock::now();
                     saveSvg(fileName, edgesVector, width, height);
+                    auto end = high_resolution_clock::now();
+                    auto duration = duration_cast<milliseconds>(end - begin);
+                    cout << "Total time to export " << to_string(duration.count()) << " milliseconds" << endl;
                 } else {
                     cout << EXPORT_BINARY << endl;
+                    auto begin = high_resolution_clock::now();
                     saveBinary(fileName, edgesVector, width, height);
+                    auto end = high_resolution_clock::now();
+                    auto duration = duration_cast<milliseconds>(end - begin);
+                    cout << "Total time to export " << to_string(duration.count()) << " milliseconds" << endl;
                 }
             } else if (algorithm == RECURSIVE) {
                 vector<Edge> edgesVector;
@@ -167,15 +199,23 @@ int main(int argc, char* argv[]) {
                 auto begin = high_resolution_clock::now();
                 edgesVector = recursiveBacktracking.generate();
                 auto end = high_resolution_clock::now();
-                auto duration = duration_cast<milliseconds>(begin - end);
+                auto duration = duration_cast<milliseconds>(end - begin);
                 cout << "Total time to generate " << to_string(duration.count()) << " milliseconds" << endl;
 
                 if (checkFileSavingFlag(argv[i]) == SAVE_SVG) {
                     cout << EXPORT_SVG << endl;
+                    auto begin = high_resolution_clock::now();
                     saveSvg(fileName, edgesVector, width, height);
+                    auto end = high_resolution_clock::now();
+                    auto duration = duration_cast<milliseconds>(end - begin);
+                    cout << "Total time to export " << to_string(duration.count()) << " milliseconds" << endl;
                 } else {
                     cout << EXPORT_BINARY << endl;
+                    auto begin = high_resolution_clock::now();
                     saveBinary(fileName, edgesVector, width, height);
+                    auto end = high_resolution_clock::now();
+                    auto duration = duration_cast<milliseconds>(end - begin);
+                    cout << "Total time to export " << to_string(duration.count()) << " milliseconds" << endl;
                 }
             } else if (algorithm == PRIM) {
                 vector<Edge> edgesVector;
@@ -189,15 +229,23 @@ int main(int argc, char* argv[]) {
                 auto begin = high_resolution_clock::now();
                 edgesVector = prim.generate();
                 auto end = high_resolution_clock::now();
-                auto duration = duration_cast<milliseconds>(begin - end);
+                auto duration = duration_cast<milliseconds>(end - begin);
                 cout << "Total time to generate " << to_string(duration.count()) << " milliseconds" << endl;
 
                 if (checkFileSavingFlag(argv[i]) == SAVE_SVG) {
                     cout << EXPORT_SVG << endl;
+                    auto begin = high_resolution_clock::now();
                     saveSvg(fileName, edgesVector, width, height);
+                    auto end = high_resolution_clock::now();
+                    auto duration = duration_cast<milliseconds>(end - begin);
+                    cout << "Total time to export " << to_string(duration.count()) << " milliseconds" << endl;
                 } else {
                     cout << EXPORT_BINARY << endl;
+                    auto begin = high_resolution_clock::now();
                     saveBinary(fileName, edgesVector, width, height);
+                    auto end = high_resolution_clock::now();
+                    auto duration = duration_cast<milliseconds>(end - begin);
+                    cout << "Total time to export " << to_string(duration.count()) << " milliseconds" << endl;
                 }
             }
         } else {
@@ -211,36 +259,39 @@ int main(int argc, char* argv[]) {
     return 0;
 }
 
-string checkFileSavingFlag(string input){
+string checkFileSavingFlag(string input) {
     if (input == SAVE_SVG || input == SAVE_BINARY) {
         return input;
     }
-    else{
+    else {
         throw "Saving argument must be: --sv or --sb";
     }
 }
 
-string checkFileName(string input){
+string checkFileName(string input) {
     string fileType = input.substr(input.find_last_of(".") + 1);
     if ( fileType == "svg" || fileType == "bin") {
         return input;
-    }else{
+    } else {
         throw "Invalid file type. File type must be .svg or .bin";
     }
 }
 
-string checkAlgorithmFlag(string input){
+string checkAlgorithmFlag(string input) {
     if (input == "--gg" || input == "--gp" || input == "--gr") {
         return input;
-    }
-    else if (input == "help") {
-        cout << "./asn2 --lb filename.maze --sv filename.svg # load binary file and save svg file\n"
-                "./asn2 --gg seed width height --sb filename.maze # generate with seed value, save binary file\n"
-                "./asn2 --gp seed width height --sb filename.maze # generate with seed value, save binary file\n"
-                "./asn2 --gr seed width height --sv filename.svg # generate with seed value, save svg file\n"
-                "./asn2 --(gg, gp or gr) seed width height --sb filename.maze --sv filename.svg # gen with seed, save binary, save svg\n";
-    }
-    else{
+    } else if (input == "help") {
+        cout << "--gg: Growing tree algorithm with custom seed \n"
+                "-gg: Growing tree algorithm with ramdom seed \n"
+                "--gr: Recursive backtracking algorithm with custom seed \n"
+                "-gr: Recursive backtracking algorithm with random seed \n"
+                "--gp: Prim's algorithm with custom seed \n"
+                "-gp: Prim's algorithm with random seed \n"
+                "--sv: Export maze to SVG \n"
+                "--sb: Export maze to binary \n"
+                "Param: ./mazer -algorithm flag -export file type \n"
+                "Example: ./mazer --gg 123 1000 1000 --sv mygrowingtreemaze.svg";
+    } else {
         throw "Must be --gg or --gp or --gr.";
     }
 }
@@ -248,7 +299,7 @@ string checkAlgorithmFlag(string input){
 string checkBinarySavingFlag(string input) {
     if (input == "--sb") {
         return input;
-    }else{
+    } else {
         throw "Invalid arguments for --sb";
     }
 }
@@ -256,7 +307,7 @@ string checkBinarySavingFlag(string input) {
 string checkSvgSavingFlag(string input) {
     if (input == "--sv") {
         return input;
-    }else{
+    } else {
         throw "Invalid arguments for --sv";
     }
 }
@@ -265,7 +316,7 @@ string checkBinaryFileType(string input) {
     string fileType = input.substr(input.find_last_of(".") + 1);
     if (fileType == "bin") {
         return input;
-    }else{
+    } else {
         throw "Invalid file type. File type must be .bin";
     }
 }
@@ -274,7 +325,7 @@ string checkSvgFileType(string input) {
     string fileType = input.substr(input.find_last_of(".") + 1);
     if ( fileType == "svg") {
         return input;
-    }else{
+    } else {
         throw "Invalid fileType. FileType must be .svg";
     }
 }
