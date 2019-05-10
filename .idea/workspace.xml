@@ -12,6 +12,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="677e575b-3d61-4307-8a30-70720199a6f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/3.14.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mazer.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mazer.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mazer.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mazer.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mazer.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mazer.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/mazer.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake_install.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -30,19 +61,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="344" column="42" selection-start-line="344" selection-start-column="42" selection-end-line="344" selection-end-column="42" />
+            <state relative-caret-position="5339">
+              <caret line="281" column="121" selection-start-line="281" selection-start-column="121" selection-end-line="281" selection-end-column="121" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#2075#2253#0" />
-                <element signature="e#2254#2513#0" />
-                <element signature="e#13232#14110#0" />
-                <element signature="e#14121#14273#0" />
-                <element signature="e#2853#2997#0" />
-                <element signature="e#2998#3227#0" />
-                <element signature="e#3228#3458#0" />
-                <element signature="e#3127#4128#0" />
+                <element signature="e#14925#15889#0" />
+                <element signature="e#15891#16888#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="218" selection-start-line="9" selection-start-column="218" selection-end-line="9" selection-end-column="218" />
             </state>
           </provider>
         </entry>
@@ -147,17 +181,17 @@
       <updated>1557332911943</updated>
       <workItem from="1557332913360" duration="2138000" />
       <workItem from="1557391383303" duration="5701000" />
-      <workItem from="1557456151970" duration="16193000" />
+      <workItem from="1557456151970" duration="17714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24032000" />
+    <option name="totallyTimeSpent" value="25553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15628816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -300,13 +334,6 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/mazer.cbp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="218" selection-start-line="9" selection-start-column="218" selection-end-line="9" selection-end-column="218" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HuntAndKill.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -341,20 +368,28 @@
     <entry file="file://$PROJECT_DIR$/Makefile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="218" selection-start-line="9" selection-start-column="218" selection-end-line="9" selection-end-column="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/iterator">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="760" selection-start-line="760" selection-end-line="760" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="344" column="42" selection-start-line="344" selection-start-column="42" selection-end-line="344" selection-end-column="42" />
+        <state relative-caret-position="5339">
+          <caret line="281" column="121" selection-start-line="281" selection-start-column="121" selection-end-line="281" selection-end-column="121" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#2075#2253#0" />
-            <element signature="e#2254#2513#0" />
-            <element signature="e#13232#14110#0" />
-            <element signature="e#14121#14273#0" />
-            <element signature="e#2853#2997#0" />
-            <element signature="e#2998#3227#0" />
-            <element signature="e#3228#3458#0" />
-            <element signature="e#3127#4128#0" />
+            <element signature="e#14925#15889#0" />
+            <element signature="e#15891#16888#0" />
           </folding>
         </state>
       </provider>

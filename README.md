@@ -14,7 +14,10 @@ Then it will be an option to saved both SVG and binary.
 
 ### Installation
 Go to the source code directory and call
-    'make'
+    `cmake .`
+
+Then `make`
+
 
 ### Usage
 

@@ -279,7 +279,7 @@ string checkFileName(string input) {
 }
 
 string checkAlgorithmFlag(string input) {
-    if (input == GROWING_TREE || input == RECURSIVE || input == PRIM) {
+    if (input == GROWING_TREE || input == RECURSIVE || input == PRIM || input == "-gg" || input == "-gr" || input == "-gp") {
         return input;
     } else if (input == "help") {
         cout << "--gg: Growing tree algorithm with custom seed \n"
@@ -293,7 +293,7 @@ string checkAlgorithmFlag(string input) {
                 "Param: ./mazer -algorithm flag -export file type \n"
                 "Example: ./mazer --gg 123 1000 1000 --sv mygrowingtreemaze.svg";
     } else {
-        throw "Must be --gg or --gp or --gr.";
+        throw "Wrong flag";
     }
 }
 
