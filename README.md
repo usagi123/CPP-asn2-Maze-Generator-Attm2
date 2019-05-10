@@ -21,8 +21,6 @@ Then `make`
 
 ### Usage
 
-./maze -g 10 10 myMaze (generate binary and SVG maze file named myMaze with seed 1234 and h/w: 10/10)
-
 --gg: Growing tree algorithm with custom seed
 
 -gg: Growing tree algorithm with ramdom seed
