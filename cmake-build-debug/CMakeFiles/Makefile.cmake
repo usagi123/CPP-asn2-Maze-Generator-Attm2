@@ -52,5 +52,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/asn2_att2.dir/DependInfo.cmake"
+  "CMakeFiles/mazer.dir/DependInfo.cmake"
   )

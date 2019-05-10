@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named asn2_att2
+# Target rules for targets named mazer
 
 # Build rule for target.
-asn2_att2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 asn2_att2
-.PHONY : asn2_att2
+mazer: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mazer
+.PHONY : mazer
 
 # fast build rule for target.
-asn2_att2/fast:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/build
-.PHONY : asn2_att2/fast
+mazer/fast:
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/build
+.PHONY : mazer/fast
 
 Coordinator.o: Coordinator.cpp.o
 
@@ -129,7 +129,7 @@ Coordinator.o: Coordinator.cpp.o
 
 # target to build an object file
 Coordinator.cpp.o:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/Coordinator.cpp.o
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/Coordinator.cpp.o
 .PHONY : Coordinator.cpp.o
 
 Coordinator.i: Coordinator.cpp.i
@@ -138,7 +138,7 @@ Coordinator.i: Coordinator.cpp.i
 
 # target to preprocess a source file
 Coordinator.cpp.i:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/Coordinator.cpp.i
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/Coordinator.cpp.i
 .PHONY : Coordinator.cpp.i
 
 Coordinator.s: Coordinator.cpp.s
@@ -147,7 +147,7 @@ Coordinator.s: Coordinator.cpp.s
 
 # target to generate assembly for a file
 Coordinator.cpp.s:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/Coordinator.cpp.s
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/Coordinator.cpp.s
 .PHONY : Coordinator.cpp.s
 
 Edge.o: Edge.cpp.o
@@ -156,7 +156,7 @@ Edge.o: Edge.cpp.o
 
 # target to build an object file
 Edge.cpp.o:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/Edge.cpp.o
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/Edge.cpp.o
 .PHONY : Edge.cpp.o
 
 Edge.i: Edge.cpp.i
@@ -165,7 +165,7 @@ Edge.i: Edge.cpp.i
 
 # target to preprocess a source file
 Edge.cpp.i:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/Edge.cpp.i
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/Edge.cpp.i
 .PHONY : Edge.cpp.i
 
 Edge.s: Edge.cpp.s
@@ -174,7 +174,7 @@ Edge.s: Edge.cpp.s
 
 # target to generate assembly for a file
 Edge.cpp.s:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/Edge.cpp.s
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/Edge.cpp.s
 .PHONY : Edge.cpp.s
 
 GrowingTree.o: GrowingTree.cpp.o
@@ -183,7 +183,7 @@ GrowingTree.o: GrowingTree.cpp.o
 
 # target to build an object file
 GrowingTree.cpp.o:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/GrowingTree.cpp.o
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/GrowingTree.cpp.o
 .PHONY : GrowingTree.cpp.o
 
 GrowingTree.i: GrowingTree.cpp.i
@@ -192,7 +192,7 @@ GrowingTree.i: GrowingTree.cpp.i
 
 # target to preprocess a source file
 GrowingTree.cpp.i:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/GrowingTree.cpp.i
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/GrowingTree.cpp.i
 .PHONY : GrowingTree.cpp.i
 
 GrowingTree.s: GrowingTree.cpp.s
@@ -201,7 +201,7 @@ GrowingTree.s: GrowingTree.cpp.s
 
 # target to generate assembly for a file
 GrowingTree.cpp.s:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/GrowingTree.cpp.s
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/GrowingTree.cpp.s
 .PHONY : GrowingTree.cpp.s
 
 HuntAndKill.o: HuntAndKill.cpp.o
@@ -210,7 +210,7 @@ HuntAndKill.o: HuntAndKill.cpp.o
 
 # target to build an object file
 HuntAndKill.cpp.o:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/HuntAndKill.cpp.o
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/HuntAndKill.cpp.o
 .PHONY : HuntAndKill.cpp.o
 
 HuntAndKill.i: HuntAndKill.cpp.i
@@ -219,7 +219,7 @@ HuntAndKill.i: HuntAndKill.cpp.i
 
 # target to preprocess a source file
 HuntAndKill.cpp.i:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/HuntAndKill.cpp.i
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/HuntAndKill.cpp.i
 .PHONY : HuntAndKill.cpp.i
 
 HuntAndKill.s: HuntAndKill.cpp.s
@@ -228,7 +228,7 @@ HuntAndKill.s: HuntAndKill.cpp.s
 
 # target to generate assembly for a file
 HuntAndKill.cpp.s:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/HuntAndKill.cpp.s
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/HuntAndKill.cpp.s
 .PHONY : HuntAndKill.cpp.s
 
 Maze.o: Maze.cpp.o
@@ -237,7 +237,7 @@ Maze.o: Maze.cpp.o
 
 # target to build an object file
 Maze.cpp.o:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/Maze.cpp.o
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/Maze.cpp.o
 .PHONY : Maze.cpp.o
 
 Maze.i: Maze.cpp.i
@@ -246,7 +246,7 @@ Maze.i: Maze.cpp.i
 
 # target to preprocess a source file
 Maze.cpp.i:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/Maze.cpp.i
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/Maze.cpp.i
 .PHONY : Maze.cpp.i
 
 Maze.s: Maze.cpp.s
@@ -255,7 +255,7 @@ Maze.s: Maze.cpp.s
 
 # target to generate assembly for a file
 Maze.cpp.s:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/Maze.cpp.s
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/Maze.cpp.s
 .PHONY : Maze.cpp.s
 
 Prim.o: Prim.cpp.o
@@ -264,7 +264,7 @@ Prim.o: Prim.cpp.o
 
 # target to build an object file
 Prim.cpp.o:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/Prim.cpp.o
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/Prim.cpp.o
 .PHONY : Prim.cpp.o
 
 Prim.i: Prim.cpp.i
@@ -273,7 +273,7 @@ Prim.i: Prim.cpp.i
 
 # target to preprocess a source file
 Prim.cpp.i:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/Prim.cpp.i
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/Prim.cpp.i
 .PHONY : Prim.cpp.i
 
 Prim.s: Prim.cpp.s
@@ -282,7 +282,7 @@ Prim.s: Prim.cpp.s
 
 # target to generate assembly for a file
 Prim.cpp.s:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/Prim.cpp.s
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/Prim.cpp.s
 .PHONY : Prim.cpp.s
 
 RecursiveBacktracking.o: RecursiveBacktracking.cpp.o
@@ -291,7 +291,7 @@ RecursiveBacktracking.o: RecursiveBacktracking.cpp.o
 
 # target to build an object file
 RecursiveBacktracking.cpp.o:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/RecursiveBacktracking.cpp.o
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/RecursiveBacktracking.cpp.o
 .PHONY : RecursiveBacktracking.cpp.o
 
 RecursiveBacktracking.i: RecursiveBacktracking.cpp.i
@@ -300,7 +300,7 @@ RecursiveBacktracking.i: RecursiveBacktracking.cpp.i
 
 # target to preprocess a source file
 RecursiveBacktracking.cpp.i:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/RecursiveBacktracking.cpp.i
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/RecursiveBacktracking.cpp.i
 .PHONY : RecursiveBacktracking.cpp.i
 
 RecursiveBacktracking.s: RecursiveBacktracking.cpp.s
@@ -309,7 +309,7 @@ RecursiveBacktracking.s: RecursiveBacktracking.cpp.s
 
 # target to generate assembly for a file
 RecursiveBacktracking.cpp.s:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/RecursiveBacktracking.cpp.s
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/RecursiveBacktracking.cpp.s
 .PHONY : RecursiveBacktracking.cpp.s
 
 main.o: main.cpp.o
@@ -318,7 +318,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -327,7 +327,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -336,7 +336,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/asn2_att2.dir/build.make CMakeFiles/asn2_att2.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/mazer.dir/build.make CMakeFiles/mazer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -347,7 +347,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... asn2_att2"
+	@echo "... mazer"
 	@echo "... Coordinator.o"
 	@echo "... Coordinator.i"
 	@echo "... Coordinator.s"
