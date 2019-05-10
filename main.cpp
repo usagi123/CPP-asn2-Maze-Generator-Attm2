@@ -19,9 +19,6 @@ const string SAVE_BINARY = "--sb";
 const string SAVE_SVG = "--sv";
 const string EXPORT_SVG = "Exporting SVG";
 const string EXPORT_BINARY = "Exporting Binary";
-unsigned seed;
-unsigned width;
-unsigned height;
 
 string checkFileSavingFlag(string input);
 string checkFileName(string input);
@@ -34,6 +31,10 @@ void saveSvg(string fileName, const vector<Edge>& vector, int width, int height)
 void saveBinary(string fileName, const vector<Edge>& vector, int width, int height);
 
 int main(int argc, char* argv[]) {
+    unsigned seed;
+    unsigned width;
+    unsigned height;
+
     try {
         int i = 1;
         string algorithm = checkAlgorithmFlag(argv[i]);
@@ -270,15 +271,15 @@ string checkFileSavingFlag(string input) {
 
 string checkFileName(string input) {
     string fileType = input.substr(input.find_last_of(".") + 1);
-    if ( fileType == "svg" || fileType == "bin") {
+    if ( fileType == "svg" || fileType == "maze") {
         return input;
     } else {
-        throw "Invalid file type. File type must be .svg or .bin";
+        throw "Invalid file type. File type must be .svg or .maze";
     }
 }
 
 string checkAlgorithmFlag(string input) {
-    if (input == "--gg" || input == "--gp" || input == "--gr") {
+    if (input == GROWING_TREE || input == RECURSIVE || input == PRIM) {
         return input;
     } else if (input == "help") {
         cout << "--gg: Growing tree algorithm with custom seed \n"
@@ -297,7 +298,7 @@ string checkAlgorithmFlag(string input) {
 }
 
 string checkBinarySavingFlag(string input) {
-    if (input == "--sb") {
+    if (input == SAVE_BINARY) {
         return input;
     } else {
         throw "Invalid arguments for --sb";
@@ -305,7 +306,7 @@ string checkBinarySavingFlag(string input) {
 }
 
 string checkSvgSavingFlag(string input) {
-    if (input == "--sv") {
+    if (input == SAVE_SVG) {
         return input;
     } else {
         throw "Invalid arguments for --sv";
@@ -314,10 +315,10 @@ string checkSvgSavingFlag(string input) {
 
 string checkBinaryFileType(string input) {
     string fileType = input.substr(input.find_last_of(".") + 1);
-    if (fileType == "bin") {
+    if (fileType == "maze") {
         return input;
     } else {
-        throw "Invalid file type. File type must be .bin";
+        throw "Invalid file type. File type must be .maze";
     }
 }
 
@@ -335,13 +336,13 @@ void saveSvg(string fileName, const vector<Edge>& vector, int width, int height)
     svg << "<svg" << " viewBox=" << "\"0 0 " << width << " " << height << "\""<< " width" << "=" << "\"" << width*10
         << "\"" << " height=\"" << height*10 << "\"" << " xmlns=" << "\"http://www.w3.org/2000/svg\">" << endl;
     svg << "<rect width =" << "\'" << width << "\' " << "height=\'" << height << "\' " << "style=\'"
-        << "fill: black\' " << "/>" << endl;
+        << "fill: white\' " << "/>" << endl;
     for (auto & edge : vector) {
         int x1 =  edge.getCoordinator1().getX();
         int y1 =  edge.getCoordinator1().getY();
         int x2 =  edge.getCoordinator2().getX();
         int y2 =  edge.getCoordinator2().getY();
-        svg << "<line stroke=\'" << "white\' " << "stroke-width=\'" << "0.05\'" << " x1=\'" << x1 << "\' y1=\'" << y1
+        svg << "<line stroke=\'" << "black\' " << "stroke-width=\'" << "0.05\'" << " x1=\'" << x1 << "\' y1=\'" << y1
             << "\' x2=\'" << x2 << "\' y2=\'" << y2 << "\'/>" << endl;
     }
     svg << "</svg>";
@@ -359,10 +360,10 @@ void saveBinary(string fileName, const vector<Edge>& vector, int width, int heig
         binary.write((char *) &numberOfEdges, sizeof(width));
 
         for (auto & edge : vector) {
-            int x1 =  edge.getCoordinator1().getX();
-            int y1 =  edge.getCoordinator1().getY();
-            int x2 =  edge.getCoordinator2().getX();
-            int y2 =  edge.getCoordinator2().getY();
+            int x1 = edge.getCoordinator1().getX();
+            int y1 = edge.getCoordinator1().getY();
+            int x2 = edge.getCoordinator2().getX();
+            int y2 = edge.getCoordinator2().getY();
             binary.write((char *) &x1, sizeof(x1));
             binary.write((char *) &y1, sizeof(y1));
             binary.write((char *) &x2, sizeof(x2));
