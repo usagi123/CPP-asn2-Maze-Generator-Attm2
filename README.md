@@ -1,8 +1,6 @@
 Maze generator
 =
 
-Solution by Huy Mai Pham Quang
-
 ### Description
 There are 3 algorithm to generate maze
 - Growing tree
